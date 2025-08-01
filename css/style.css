@@ -269,23 +269,25 @@ table .time {
 }
 
 .banner-img {
-  width: 100%;
-  display: block; /* Ensures the image covers the full area */
+  width: 90%;
+  height: auto;
+  display: block; /* Ensures the video covers the full area */
+  object-fit: cover; /* Ensures video maintains aspect ratio while covering area */
 }
 
 .banner-text {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 67%;
   transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.4); /* Adds a dark background to the text */
-  color: #FFFFFF; /* Ensuring text is white */
-  padding: 20px;
-  border-radius: 10px; /* Optional: adds rounded corners to the text background */
+  background: rgba(0, 0, 0, 0.4); /*Adds a dark background to the text*/
+  color: #FFFFFF; /*Ensuring text is white */
+  padding: 5px;
+  border-radius: 5px; /* Optional: adds rounded corners to the text background */
   font-size: 1.5em; /* Adjust based on your design */
   font-weight: bold; /* Makes the font bolder */
   /* text-shadow: 2px 2px 4px rgba(0,0,0,0.5); Adds a shadow to the text */
-  max-width: 80%; /* Ensures text block doesn't span the full width of the image */
+  max-width: 90%; /* Ensures text block doesn't span the full width of the image */
   max-height: 100%;
   box-sizing: border-box;
   font-size: 1.8vw;
@@ -300,6 +302,14 @@ table .time {
   font-family: Roboto, sans-serif; /* Ensure consistency if needed, or remove if not */
   font-size: 2.6vw;
 }
+
+.main-content {
+  width: 80%;
+  margin: 20px 0 20px 5%;
+  text-align: left;
+}
+
+
 
 /* Set a maximum font size for really large screens */
 @media (min-width: 1200px) {
