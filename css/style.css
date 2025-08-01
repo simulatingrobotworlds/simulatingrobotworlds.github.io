@@ -314,6 +314,63 @@ table .time {
 
 
 
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .banner-text {
+    font-size: 16px !important;
+    padding: 10px !important;
+    max-width: 95% !important;
+    left: 50% !important;
+  }
+  
+  .banner-text h1,
+  .banner-text h2,
+  .banner-text h3 {
+    font-size: 1.4em !important;
+    margin-bottom: 8px !important;
+    line-height: 1.2 !important;
+  }
+  
+  .banner-text h4 {
+    font-size: 1.1em !important;
+    margin-bottom: 6px !important;
+  }
+  
+  .banner-text p {
+    font-size: 0.9em !important;
+    margin-bottom: 4px !important;
+  }
+  
+  .main-content {
+    width: 95% !important;
+    margin: 20px auto !important;
+    padding: 0 10px !important;
+  }
+  
+  .banner-img {
+    width: 100% !important;
+  }
+}
+
+/* Tablet-specific styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .banner-text {
+    font-size: 18px;
+    padding: 8px;
+  }
+  
+  .banner-text h1,
+  .banner-text h2,
+  .banner-text h3 {
+    font-size: 2.2vw;
+  }
+  
+  .main-content {
+    width: 90% !important;
+    margin: 20px auto !important;
+  }
+}
+
 /* Set a maximum font size for really large screens */
 @media (min-width: 1200px) {
   .banner-text {
