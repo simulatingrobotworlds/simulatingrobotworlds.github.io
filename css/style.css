@@ -317,10 +317,14 @@ table .time {
 /* Mobile-specific styles */
 @media (max-width: 768px) {
   .banner-text {
-    font-size: 10px !important;
-    padding: 8px !important;
-    max-width: 98% !important;
-    left: 75% !important;
+    font-size: 12px !important;
+    padding: 0px !important;
+    max-width: 100% !important;
+    background: rgba(0, 0, 0, 0.0) !important;
+    top: 50% !important;
+    left: 65% !important;
+    transform: translate(-30%, -50%) !important;
+
   }
   
   .banner-text h1,
