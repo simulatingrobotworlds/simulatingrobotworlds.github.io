@@ -320,7 +320,7 @@ table .time {
     font-size: 14px !important;
     padding: 8px !important;
     max-width: 98% !important;
-    left: 50% !important;
+    left: 65% !important;
   }
   
   .banner-text h1,
@@ -363,7 +363,7 @@ table .time {
 /* Tablet-specific styles */
 @media (min-width: 769px) and (max-width: 1024px) {
   .banner-text {
-    font-size: 18px;
+    font-size: 14px;
     padding: 8px;
   }
   
